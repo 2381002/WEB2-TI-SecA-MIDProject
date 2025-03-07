@@ -3,10 +3,12 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/16/solid"
 import { NavLink } from "react-router-dom"
 
 const navigation = [
-	{ name: 'Product', to: '/product', current: true },
+	{ name: 'Home', to: '/home', current: true},
+	{ name: 'Product', to: '/product', current: false },
 	{ name: 'Recipes', to: '/recipes', current: false },
-	{ name: 'Carts', to: '/carts', current: false },
+	{ name: 'Comments', to: '/comments', current: false },
 	{ name: 'Post', to: '/posts', current: false },
+	{ name: 'Todos', to: '/todos', current: false },
 ]
 
 function classNames(...classes: string[]) {
